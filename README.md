@@ -8,9 +8,26 @@ This data was downloaded for the sake of data cleaning and visualization. I look
 Not until after stating these questions, before I went ahead to search for a file that suits it. The file contains two sheets.
 #### Data manipulation
 *The following KPI’s were gotten with these formulas to get a better understanding of this project.*
--	Total Revenue =SUM(A2:A701), Total Profit , Average Profit =AVERAGE(L2:L701), Lowest Profit =MIN(L2:L701), Highest Profit =MAX(L2:L701), Number of Transactions =COUNT(L2:L701) and Profit Margin =W2/W1.
+-	Total Revenue =SUM(A2:A701), Total Profit
+-	Average Profit =AVERAGE(L2:L701)
+-	Lowest Profit =MIN(L2:L701)
+-	Highest Profit =MAX(L2:L701)
+-	Number of Transactions =COUNT(L2:L701)
+-	Profit Margin =W2/W1.
 ![KPI1](https://github.com/kokolet12/Formulated-kokolet/assets/155350323/a8983e04-9d41-4c77-9c63-46df9cf6ea0a)
--	Total unit sold , Total unit sold in Mexico =SUMIF(C2:C701,"mexico",O2:O701), Total profit in Canada, average profit made in Canada for paseo =AVERAGEIFS(L2:L701,C2:C701,"Canada",K2:K701,"Paseo"), total profit made in Canada for paseo in 2014 =SUMIFS(L2:L701,C2:C701,"Canada",K2:K701,"Paseo",P2:P701,"2014"), number of sales recorded in July =COUNTIF(I2:I701,"July"), Average unit of goods sold (Paseo, Canada, 2014) =AVERAGEIFS(O2:O701,C2:C701,"Canada",K2:K701,"Paseo",P2:P701,"2014"), The average revenue generated from each sale of Paseo =AVERAGEIF(K2:K701,"Paseo",A2:A701), The number of sales made in the government segment =COUNTIF(N2:N701,"Government"), the number of sales made in the midmarket segment, The total revenue generated from the sales of Montana in Canada =SUMIFS(A2:A701,K2:K701,"montana",C2:C701,"canada"), Highest unit of goods sold (year) =VLOOKUP(W29,O2:P701,2,FALSE) Vlookup always look backward and not forward, Highest unit of goods sold (Month), Highest unit of goods sold (segment), Highest unit of goods sold (Country), Total profit made in December and Highest unit of goods sold
+-	Total unit sold , Total unit sold in Mexico =SUMIF(C2:C701,"mexico",O2:O701)
+-	Total profit in Canada, average profit made in Canada for paseo =AVERAGEIFS(L2:L701,C2:C701,"Canada",K2:K701,"Paseo")
+-	Total profit made in Canada for paseo in 2014 =SUMIFS(L2:L701,C2:C701,"Canada",K2:K701,"Paseo",P2:P701,"2014")
+-	number of sales recorded in July =COUNTIF(I2:I701,"July")
+-	Average unit of goods sold (Paseo, Canada, 2014) =AVERAGEIFS(O2:O701,C2:C701,"Canada",K2:K701,"Paseo",P2:P701,"2014")
+-	The average revenue generated from each sale of Paseo =AVERAGEIF(K2:K701,"Paseo",A2:A701)
+-	The number of sales made in the government segment =COUNTIF(N2:N701,"Government"), the number of sales made in the midmarket segment
+-	The total revenue generated from the sales of Montana in Canada =SUMIFS(A2:A701,K2:K701,"montana",C2:C701,"canada")
+-	Highest unit of goods sold (year) =VLOOKUP(W29,O2:P701,2,FALSE) Vlookup always look backward and not forward
+-	Highest unit of goods sold (Month) the same approach used in getting the highest unit of goods sold in a particular year, will be used for both month, segment and country.
+-	Highest unit of goods sold (segment)
+-	 Highest unit of goods sold (Country)
+-	 Total profit made in December and Highest unit of goods sold
   
 ![KPI2](https://github.com/kokolet12/Formulated-kokolet/assets/155350323/142c44a0-f5be-4cb5-9666-910d64e821d5)
 
